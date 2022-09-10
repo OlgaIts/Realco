@@ -770,6 +770,10 @@ text-align: center;
   color: var(--text-color);
 }
 
+.privacy {
+  color: var(--text-color);
+}
+
 .privacy:hover {
   text-decoration: underline;
   color: var(--heading-color);
