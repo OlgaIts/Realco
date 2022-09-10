@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'icon-realco';
+  src:  url('fonts/icon-realco.eot?es7riu');
+  src:  url('fonts/icon-realco.eot?es7riu#iefix') format('embedded-opentype'),
+    url('fonts/icon-realco.ttf?es7riu') format('truetype'),
+    url('fonts/icon-realco.woff?es7riu') format('woff'),
+    url('fonts/icon-realco.svg?es7riu#icon-realco') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-realco' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_arrow-down:before {
+  content: "\e900";
+}
+.icon_search:before {
+  content: "\e901";
+}
+.icon_shopping_bag:before {
+  content: "\e902";
+}
